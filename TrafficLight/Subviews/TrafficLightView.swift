@@ -17,7 +17,6 @@ struct TrafficLightView: View {
             .foregroundColor(color)
             .overlay(Circle().stroke(Color.white, lineWidth: 4))
             .opacity(opacity)
-            .shadow(color: color, radius: 10)
     }
 }
 
